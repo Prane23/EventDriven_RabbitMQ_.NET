@@ -1,4 +1,5 @@
 ﻿
+using EventTracking.Producer.Model;
 using EventTracking.Producer.RabbitMQ.Interface;
 using RabbitMQ.Client;
 using System.Text;
@@ -26,6 +27,11 @@ namespace EventTracking.Producer.RabbitMQ
             var json = JsonSerializer.Serialize(message);
             var body = Encoding.UTF8.GetBytes(json);
 
+            Console.WriteLine("***************************************");
+            Console.WriteLine("         [Producer] Sending Order     ");
+            Console.WriteLine("***************************************");
+            Console.WriteLine($"Order  : {json}");
+            Console.WriteLine("***************************************\n");
             channel.BasicPublish(exchange: "", routingKey: "orders", basicProperties: null, body: body);
         }
 
