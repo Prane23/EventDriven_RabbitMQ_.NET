@@ -1,8 +1,10 @@
 # 🚀EventDriven_RabbitMQ_.NET
-This project demonstrates an Event-Driven Architecture using RabbitMQ and .NET 10.
-It consists of:
+This project demonstrates an Event-Driven Architecture using RabbitMQ and .NET 10, showcasing how a producer service and a background consumer can communicate asynchronously through message queues. 
+It’s a practical, minimal example of how distributed systems exchange events without tight coupling.
+
+The solution includes:
 - Producer (ASP.NET Core Web API) → Publishes messages (orders) to RabbitMQ.
-- Consumer (Console App with BackgroundService) → Listens to the queue and processes messages.
+- Consumer (Console App with BackgroundService) → Listens to the queue and processes messages in real time.
 
 
 ## ✅ Features
@@ -37,7 +39,10 @@ Create and run RabbitMQ using Docker
 -  Post the order 
 <img width="1601" height="954" alt="image" src="https://github.com/user-attachments/assets/db5e2c6f-1508-4086-8df8-6c90c55f1cc3" />
 
-- You will see nicely formatted output: 
+- [Producer] Sending Order
+<img width="663" height="153" alt="image" src="https://github.com/user-attachments/assets/53e314e3-0c80-407f-816a-b28ca763c267" />
+
+- [Consumer] Received Order (You will see nicely formatted output:)
  <img width="383" height="169" alt="image" src="https://github.com/user-attachments/assets/2a1589cb-c8a8-4f5e-a478-2eba2c9d8f46" />
 
 
