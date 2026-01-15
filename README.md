@@ -1,8 +1,10 @@
 # 🚀EventDriven_RabbitMQ_.NET
-This project demonstrates an Event-Driven Architecture using RabbitMQ and .NET 10.
-It consists of:
+This project demonstrates an Event-Driven Architecture using RabbitMQ and .NET 10., showcasing how a producer service and a background consumer can communicate asynchronously through message queues. 
+It’s a practical, minimal example of how distributed systems exchange events without tight coupling.
+
+The solution includes:
 - Producer (ASP.NET Core Web API) → Publishes messages (orders) to RabbitMQ.
-- Consumer (Console App with BackgroundService) → Listens to the queue and processes messages.
+- Consumer (Console App with BackgroundService) → Listens to the queue and processes messages in real time.
 
 
 ## ✅ Features
