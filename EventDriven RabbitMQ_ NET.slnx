@@ -1,4 +1,4 @@
 <Solution>
   <Project Path="EventTracking.Consumer/EventTracking.Consumer.csproj" Id="bd740602-a29b-4dc0-93d3-8cc8cf0082d8" />
-  <Project Path="OrderApi/EventTracking.Producer.csproj" />
+  <Project Path="EventTracking.Producer/EventTracking.Producer.csproj" />
 </Solution>
