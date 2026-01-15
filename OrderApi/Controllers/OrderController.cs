@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using EventTracking.Producer.Model;
-using EventTracking.Producer.RabbitMQ.Interface;
+using EventTracking.Producer.Services;
 
 namespace EventTracking.Producer.Controllers
 {

@@ -5,8 +5,6 @@ namespace EventTracking.Producer.RabbitMQ
 {
     public class RabbitMqConnection : IRabbitMqConnection, IDisposable
     {
-
-
         private readonly IConnection _connection;
 
         public RabbitMqConnection()

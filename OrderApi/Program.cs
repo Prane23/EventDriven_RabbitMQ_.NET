@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using EventTracking.Producer.RabbitMQ;
 using EventTracking.Producer.RabbitMQ.Interface;
+using EventTracking.Producer.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,6 +1,6 @@
 ﻿using EventTracking.Producer.Model;
 
-namespace EventTracking.Producer.RabbitMQ.Interface
+namespace EventTracking.Producer.Services
 {
     public interface IMessageQueueService
     {
