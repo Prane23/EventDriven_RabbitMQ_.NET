@@ -80,3 +80,6 @@ EventDriven_RabbitMQ_.NET/
     ├── Program.cs                      # Generic Host setup for background service
     └── EventTracking.Consumer.csproj   # Project file
 ```
+🙌 Author  
+**Prashant**  
+Event-Driven Architecture | RabbitMQ | .NET Core | Microservices
