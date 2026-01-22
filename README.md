@@ -5,24 +5,21 @@ It’s a practical, minimal example of how distributed systems exchange events w
 The solution includes:
 - Producer (ASP.NET Core Web API) → Publishes messages (orders) to RabbitMQ.
 - Consumer (Console App with BackgroundService) → Listens to the queue and processes messages in real time.
-
-
+---
 ## ✅ Features
-
-Event-driven communication using RabbitMQ.
-ASP.NET Core Web API for producing events.
-Console application for consuming events.
-Docker Compose for easy RabbitMQ setup.
-Clean architecture with Dependency Injection.
-
-
+- Event-driven communication using RabbitMQ.
+- ASP.NET Core Web API for producing events.
+- Console application for consuming events.
+- Docker Compose for easy RabbitMQ setup.
+- Clean architecture with Dependency Injection.
+---
 ## 🛠 Tech Stack
-.NET 10
-RabbitMQ.Client
-Docker (for RabbitMQ)
-ASP.NET Core Web API
-Generic Host for BackgroundService
-
+- .NET 10
+- RabbitMQ.Client
+- Docker (for RabbitMQ)
+- ASP.NET Core Web API
+- Generic Host for BackgroundService
+---
 ## 🚀Getting Started
 1️⃣ Clone the Repository
 ```
@@ -44,7 +41,6 @@ Create and run RabbitMQ using Docker
 
 - [Consumer] Received Order (You will see nicely formatted output:)
  <img width="383" height="169" alt="image" src="https://github.com/user-attachments/assets/2a1589cb-c8a8-4f5e-a478-2eba2c9d8f46" />
-
 
 ## 📂 Project Structure
 ```
@@ -80,6 +76,7 @@ EventDriven_RabbitMQ_.NET/
     ├── Program.cs                      # Generic Host setup for background service
     └── EventTracking.Consumer.csproj   # Project file
 ```
+---
 🙌 Author  
 **Prashant**  
 Event-Driven Architecture | RabbitMQ | .NET Core | Microservices
